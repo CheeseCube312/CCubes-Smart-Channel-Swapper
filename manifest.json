@@ -1,10 +1,10 @@
 {
   "manifestVersion": 5,
-  "id": "com.yourname.smartchannelswapper",
+  "id": "com.CCube.smartchannelswapper",
   "name": "Smart Channel Swapper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.html",
-  "author": "Josef Brockamp (u/CheeseCube312)",
+  "author": "Josef Brockamp (IG @workinprogress.photo)",
   "license": "MIT",
   "copyright": "(C) 2026 Josef Brockamp",
   "host": {
@@ -18,9 +18,12 @@
     }
   },
   "icons": [
-    { "path": "icons/icon48.png", "width": 48, "height": 48 },
-    { "path": "icons/icon96.png", "width": 96, "height": 96 },
-    { "path": "icons/icon256.png", "width": 256, "height": 256 }
+    {
+      "width": 23,
+      "height": 23,
+      "path": "icons/scs.png",
+      "scale": [1, 2]
+    }
   ],
   "entrypoints": [
     {
@@ -30,9 +33,12 @@
         "default": "Smart Channel Swapper"
       },
       "icons": [
-        { "path": "icons/icon48.png", "width": 48, "height": 48 },
-        { "path": "icons/icon96.png", "width": 96, "height": 96 },
-        { "path": "icons/icon256.png", "width": 256, "height": 256 }
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/scs.png",
+          "scale": [1, 2]
+        }
       ],
       "minimumSize": { "width": 230, "height": 200 },
       "maximumSize": { "width": 600, "height": 800 },
