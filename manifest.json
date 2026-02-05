@@ -1,0 +1,43 @@
+{
+  "manifestVersion": 5,
+  "id": "com.yourname.smartchannelswapper",
+  "name": "Smart Channel Swapper",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Josef Brockamp (u/CheeseCube312)",
+  "license": "MIT",
+  "copyright": "(C) 2026 Josef Brockamp",
+  "host": {
+    "app": "PS",
+    "minVersion": "22.0.0"
+  },
+  "requiredPermissions": {
+    "localFileSystem": "request",
+    "launchProcess": {
+      "extensions": []
+    }
+  },
+  "icons": [
+    { "path": "icons/icon48.png", "width": 48, "height": 48 },
+    { "path": "icons/icon96.png", "width": 96, "height": 96 },
+    { "path": "icons/icon256.png", "width": 256, "height": 256 }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "mainPanel",
+      "label": {
+        "default": "Smart Channel Swapper"
+      },
+      "icons": [
+        { "path": "icons/icon48.png", "width": 48, "height": 48 },
+        { "path": "icons/icon96.png", "width": 96, "height": 96 },
+        { "path": "icons/icon256.png", "width": 256, "height": 256 }
+      ],
+      "minimumSize": { "width": 230, "height": 200 },
+      "maximumSize": { "width": 600, "height": 800 },
+      "preferredDockedSize": { "width": 280, "height": 400 },
+      "preferredFloatingSize": { "width": 280, "height": 400 }
+    }
+  ]
+}
