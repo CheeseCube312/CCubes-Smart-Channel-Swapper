@@ -38,7 +38,7 @@ The photo has been copied and layer-mask added manually to show a before -> afte
 Photoshop's Channel Mixer transforms colors by mixing the Red, Green, and Blue channels with adjustable percentages. Because achieving specific goals with that is hard most Channel Mixes are simple channel swaps. 
 
 ### Unlocking more complex Mixes
-This plugin lets you choose a Starting point and a target, using **least squares optimization** to automatically calculate the best Channel Mixer settings to get there.
+This plugin lets you choose a Starting point and a target, using **least squares optimization** to automatically calculate the best Channel Mixer settings to get there. The ease of use makes more complex Channel Mixes viable, not just a matter of experimentation. 
 
 ### The Math (Simplified)
 Photoshop's Channel Mixer uses a simple equation:
